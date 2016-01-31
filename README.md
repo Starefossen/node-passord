@@ -1,6 +1,6 @@
 # Memorable Norwegian Passwords for Node.js
 
-[![Build status](https://img.shields.io/wercker/ci/55f0586d21e2917016104fd1.svg "Build status")](https://app.wercker.com/project/bykey/7235be533901a41e049d3bdc727ea66b)
+[![Build status](https://img.shields.io/wercker/ci/56ae460368076eba3b1a5574.svg "Build status")](https://app.wercker.com/project/bykey/31a8a940161845d325b2038039ccc99b)
 [![NPM downloads](https://img.shields.io/npm/dm/passord.svg "NPM downloads")](https://www.npmjs.com/package/passord)
 [![NPM version](https://img.shields.io/npm/v/passord.svg "NPM version")](https://www.npmjs.com/package/passord)
 [![Node version](https://img.shields.io/node/v/passord.svg "Node version")](https://www.npmjs.com/package/passord)
