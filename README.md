@@ -10,7 +10,7 @@ Next time you need to suggest or generate a password for a user. Instead of
 generating a completely random string of symbols you should generate something
 the user will actually be able to remember but still provide enough security.
 
-```
+```js
 > const passord = require('passord');
 >
 > passord()      // VettskremtLokale244
@@ -45,11 +45,11 @@ const passord = require('passord');
 
 Generate a random password on the following form:
 
-```
+```js
 /^[a-zæøåA-ZÆØÅ]+[0-9]{1,3}$/
 ```
 
-```
+```js
 passord();      // underligUnge864
 passord();      // VarsomOrd393
 passord();      // ForelsketOrd556
@@ -60,7 +60,7 @@ passord();      // varmDag284
 
 Generate a random codeword on the following form:
 
-```
+```js
 /^[A-ZÆØÅ]+ [A-ZÆØÅ]$/
 ```
 
