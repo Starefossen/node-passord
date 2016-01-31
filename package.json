@@ -1,0 +1,39 @@
+{
+  "name": "passord",
+  "version": null,
+  "description": "Memorable passwords and passcodes for nativ Norwegian speaking users",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test.js",
+    "test": "mocha -b -c --check-leaks -R tap test.js",
+    "watch": "mocha -w -R progress test.js",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starefossen/node-passord.git"
+  },
+  "keywords": [
+    "passord",
+    "password",
+    "codeword",
+    "dictionary",
+    "generator",
+    "norwegian"
+  ],
+  "author": "Hans Kristian Flaatten <hans@starefossen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Starefossen/node-passord/issues"
+  },
+  "homepage": "https://github.com/Starefossen/node-passord#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "mocha": "^2.3.4",
+    "semantic-release": "^4.3.5"
+  }
+}
