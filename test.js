@@ -17,7 +17,7 @@ describe('codeword()', () => {
 
 describe('combinations()', () => {
   it('returns number of combinations', () => {
-    assert.equal(passord.combinations(), 139812000);
+    assert.equal(passord.combinations(), 210816000);
   });
 });
 

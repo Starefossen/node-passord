@@ -83,10 +83,11 @@ passord.dictionary.adjective = [ ... ];
 
 ### Combinations
 
-Returns the number of unique password combinations possible:
+Returns the number of unique password combinations possible. Over 210 million
+with default dictionaries.
 
 ```js
-passord.combinations(); // 139 812 000
+passord.combinations(); // 210 816 000
 ```
 
 This number will automatically be recalculated if you use custom dictionaries:
