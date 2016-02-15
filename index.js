@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 function capitalize(string) {
@@ -36,3 +37,7 @@ module.exports.dictionary = {
   adjectiv: require('./data/adjektiv'),
   noun: require('./data/substantiv'),
 };
+
+if (!module.parent) {
+  console.log(module.exports());
+}

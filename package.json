@@ -3,6 +3,7 @@
   "version": null,
   "description": "Memorable passwords and passcodes for nativ Norwegian speaking users",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "lint": "eslint index.js test.js",
     "test": "mocha -b -c --check-leaks -R tap test.js",
