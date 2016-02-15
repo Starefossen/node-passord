@@ -87,7 +87,7 @@ Returns the number of unique password combinations possible. Over 210 million
 with default dictionaries.
 
 ```js
-passord.combinations(); // 210 816 000
+passord.combinations(); // 216 944 000
 ```
 
 This number will automatically be recalculated if you use custom dictionaries:
