@@ -1,7 +1,5 @@
 'use strict';
 
-const read = require('fs').readFileSync;
-
 function capitalize(string) {
   if (Math.floor(Math.random() * 2) === 0) {
     return string;
@@ -35,6 +33,6 @@ module.exports.combinations = function combinations() {
 };
 
 module.exports.dictionary = {
-  adjectiv: read('./adjektiv.txt', 'utf8').split('\n'),
-  noun: read('./substantiv.txt', 'utf8').split('\n'),
+  adjectiv: require('./data/adjektiv'),
+  noun: require('./data/substantiv'),
 };
