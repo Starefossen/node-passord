@@ -4,6 +4,11 @@
   "description": "Memorable passwords and passcodes for nativ Norwegian speaking users",
   "main": "index.js",
   "bin": "index.js",
+  "files": [
+    "data",
+    "index.js",
+    "test.js"
+  ],
   "scripts": {
     "lint": "eslint index.js test.js",
     "test": "mocha -c --check-leaks -R tap test.js",
