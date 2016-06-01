@@ -1,8 +1,8 @@
 # Memorable Norwegian Passwords for Node.js
 
 [![Build status](https://img.shields.io/wercker/ci/56ae460368076eba3b1a5574.svg "Build status")](https://app.wercker.com/project/bykey/31a8a940161845d325b2038039ccc99b)
-[![Codacy grade](https://img.shields.io/codacy/grade/.svg "Codacy grade")](https://www.codacy.com/app/starefossen/passord)
-[![Codacy coverage](https://img.shields.io/codacy/coverage/.svg "Codacy coverage")](https://www.codacy.com/app/starefossen/passord)
+[![Codacy grade](https://img.shields.io/codacy/grade/d9b70744f7b04ad785bdf1aafbf5d2c0.svg "Codacy grade")](https://www.codacy.com/app/starefossen/node-passord)
+[![Codacy coverage](https://img.shields.io/codacy/coverage/d9b70744f7b04ad785bdf1aafbf5d2c0.svg "Codacy coverage")](https://www.codacy.com/app/starefossen/node-passord)
 [![NPM downloads](https://img.shields.io/npm/dm/passord.svg "NPM downloads")](https://www.npmjs.com/package/passord)
 [![NPM version](https://img.shields.io/npm/v/passord.svg "NPM version")](https://www.npmjs.com/package/passord)
 [![Node version](https://img.shields.io/node/v/passord.svg "Node version")](https://www.npmjs.com/package/passord)
