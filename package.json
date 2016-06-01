@@ -37,13 +37,13 @@
     "url": "https://github.com/Starefossen/node-passord/issues"
   },
   "homepage": "https://github.com/Starefossen/node-passord#readme",
-  "engines": {
-    "node": ">=4.0.0"
-  },
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^3.1.0",
     "mocha": "^2.3.4",
     "semantic-release": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   }
 }
