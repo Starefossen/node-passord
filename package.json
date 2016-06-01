@@ -10,10 +10,14 @@
     "test.js"
   ],
   "scripts": {
+    "codacy-coverage": "codacy-coverage",
+    "cover": "istanbul cover --report lcovonly ./node_modules/.bin/_mocha -- test.js",
     "lint": "eslint index.js test.js",
-    "test": "mocha -c --check-leaks -R tap test.js",
-    "watch": "mocha -b -w -R progress test.js",
-    "semantic-release": "semantic-release"
+    "nsp": "nsp check",
+    "semantic-release": "semantic-release",
+    "test": "mocha -bc --check-leaks -R tap test.js",
+    "test:watch": "mocha -wbc --check-leaks -R progress test.js",
+    "greenkeeper-postpublish": "greenkeeper-postpublish"
   },
   "repository": {
     "type": "git",
