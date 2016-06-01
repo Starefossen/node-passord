@@ -1,8 +1,10 @@
-dev:
-  image: node:argon
-  working_dir: /usr/src/app
-  volumes:
-    - ".:/usr/src/app"
-  command: "npm run watch"
-  environment:
-    - NODE_ENV=development
+version: '2'
+
+services:
+  node:
+    image: node:argon
+    working_dir: /usr/src/app
+    volumes:
+      - ".:/usr/src/app"
+    environment:
+      - NODE_ENV=development
