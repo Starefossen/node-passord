@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 'use strict';
 
+module.exports.dictionary = {};
+module.exports.dictionary.adjectiv = require('./data/adjektiv');
+module.exports.dictionary.noun = require('./data/substantiv');
+
 function capitalize(string) {
   if (Math.floor(Math.random() * 2) === 0) {
     return string;
@@ -24,7 +28,7 @@ module.exports = function password() {
 };
 
 module.exports.codeword = function codeword() {
-  return word('adjectiv').toUpperCase() + ' ' + word('noun').toUpperCase();
+  return `${word('adjectiv').toUpperCase()} ${word('noun').toUpperCase()}`;
 };
 
 module.exports.combinations = function combinations() {
@@ -33,11 +37,7 @@ module.exports.combinations = function combinations() {
        * 1000;
 };
 
-module.exports.dictionary = {
-  adjectiv: require('./data/adjektiv'),
-  noun: require('./data/substantiv'),
-};
-
+/* istanbul ignore next */
 if (!module.parent) {
-  console.log(module.exports());
+  console.log(module.exports()); // eslint-disable-line no-console
 }
