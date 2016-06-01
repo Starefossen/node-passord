@@ -1,10 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-module.exports.dictionary = {};
-module.exports.dictionary.adjectiv = require('./data/adjektiv');
-module.exports.dictionary.noun = require('./data/substantiv');
-
 function capitalize(string) {
   if (Math.floor(Math.random() * 2) === 0) {
     return string;
@@ -36,6 +32,10 @@ module.exports.combinations = function combinations() {
        * module.exports.dictionary.noun.length * 2
        * 1000;
 };
+
+module.exports.dictionary = {};
+module.exports.dictionary.adjectiv = require('./data/adjektiv');
+module.exports.dictionary.noun = require('./data/substantiv');
 
 /* istanbul ignore next */
 if (!module.parent) {
