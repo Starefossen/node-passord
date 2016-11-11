@@ -39,7 +39,7 @@
   "homepage": "https://github.com/Starefossen/node-passord#readme",
   "devDependencies": {
     "codacy-coverage": "^2.0.0",
-    "eslint": "^3.3.1",
+    "eslint": "^3.10.0",
     "eslint-config-airbnb-base": "^5.0.3",
     "eslint-plugin-import": "^1.14.0",
     "greenkeeper-postpublish": "^1.0.0",
